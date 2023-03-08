@@ -25,6 +25,7 @@ public class Bytes {
 			}
 			System.out.println(size_bytes);
 			read_file.close();
+			WriteBytes.write(bytes);
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
